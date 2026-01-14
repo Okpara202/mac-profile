@@ -26,7 +26,7 @@ function Contact() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const email = "okparafavour202@gmail.com";
+    const email = "onyekwelumac69@gmail.com";
     const subject = encodeURIComponent(form.subject);
     const body = encodeURIComponent(message);
 
@@ -71,7 +71,7 @@ function Contact() {
                       value={form.name}
                       onChange={handleForm}
                       id="name"
-                      placeholder="Favour"
+                      placeholder="Mac"
                       required
                     />
                   </motion.label>
@@ -114,7 +114,7 @@ function Contact() {
                       value={form.email}
                       onChange={handleForm}
                       id="email"
-                      placeholder="favour@gmail.com"
+                      placeholder="mac@gmail.com"
                       required
                     />
                   </motion.label>

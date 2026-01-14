@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SpinningCircle } from "../navbar/navbarStuff/logoSvg";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-scroll";
@@ -106,22 +106,11 @@ function LeftBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.3 }}
         >
+          {/* TODO: Link the x and linkedin links to their icons */}
           <h2 className="text-center lgl:text-left uppercase font-titleFont font-semibold mb-4">
             Find me on
           </h2>
           <nav className="flex gap-4">
-            <motion.a
-              target="_blanc"
-              href="https://m.me/favour.okpara.984991"
-              className="bannerIcon"
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 1.4 }}
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaFacebookF />
-            </motion.a>
             <motion.a
               target="_blanc"
               href="https://twitter.com/messages/compose?recipient_id=1633576892191195136"
@@ -155,6 +144,7 @@ function LeftBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.3 }}
         >
+          {/* TODO: Add icons of postman, katalon studio, and cypress as best skills on    */}
           <h2 className="uppercase font-titleFont font-semibold mb-4">
             Best skills on
           </h2>

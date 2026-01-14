@@ -11,16 +11,7 @@ function Skills() {
     { name: "Attention to Detail", percentage: 100 },
   ];
 
-  const devSkills = [
-    "Core Technologies (HTML, CSS, JavaScript/TypeScript )",
-    "Frameworks & Libraries(Next.js, React.js, Express.js, Nest.js )",
-    "Styling & UI Libraries (Tailwind CSS, Chakra UI, CSS-in-JS library )",
-    "API Integration & Data Fetching (REST APIs, React Query or Axios)",
-    "Performance Optimization (React.lazy, Suspense, useMemo, useCallback)",
-    "Collaboration & Teamwork",
-    "Version Control & Deployment ( Git & Github, Vercel, Netlify )",
-    "State Management ( Redux Toolkit, Zustand )",
-  ];
+  const devSkills = ["Postman", "Katalon", "Cypress"];
 
   return (
     <motion.div
@@ -112,7 +103,7 @@ function Skills() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Development Skills
+            Work Skills
           </motion.h2>
           <div className="mt-14 w-full flex flex-col gap-6">
             {devSkills.map((skill, index) => (

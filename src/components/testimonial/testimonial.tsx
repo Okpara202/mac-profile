@@ -99,6 +99,8 @@ function Testimonial() {
         </div>
         <div className="max-w-6xl mx-auto w-full px-4">
           <Slider {...settings}>
+            {/* TODO: update the pictures and their comments */}
+
             <div className="w-full">
               <div className="w-full h-auto flex flex-col md:flex-row justify-between">
                 <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col  gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950 ">
@@ -159,13 +161,13 @@ function Testimonial() {
                   />
                   <div>
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2 dark:text-gray-400">
-                      LanceySoft Technologies
+                      Genesys Tech Hub
                     </p>
                     <h3 className="text-2xl font-bold dark:text-white">
-                      Abua Lawrence Abua
+                      Okpara Favour
                     </h3>
                     <p className="text-base tracking-wide text-gray-500 dark:text-gray-400">
-                      Chief Executive Officer
+                      Frontend Developer
                     </p>
                   </div>
                 </div>
@@ -177,10 +179,10 @@ function Testimonial() {
                     <div className="flex items-center justify-between py-6 border-b-2 border-b-slate-300">
                       <div>
                         <h3 className="text-2xl font-medium tracking-wide dark:text-white">
-                          FrontEnd Teaching Documentation
+                          Tutera
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
-                          via LinkedIn - 2023 - 2024
+                          2025 - Present
                         </p>
                       </div>
                       <div className="text-yellow-500 flex gap-1">

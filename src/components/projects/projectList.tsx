@@ -1,4 +1,5 @@
 export const projects = [
+  // TODO: Add text cases and use them to replace somethings
   {
     title: "User Management System",
     description:

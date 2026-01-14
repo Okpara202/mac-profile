@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaX } from "react-icons/fa6";
+import { FaLinkedinIn, FaX } from "react-icons/fa6";
 import { motion } from "framer-motion"; // Import motion from Framer Motion
 
 function ContactLeft() {
@@ -24,7 +24,7 @@ function ContactLeft() {
           whileInView={{ y: 0, opacity: 1 }} // WhilewhileInView to final position and opacity
           transition={{ duration: 0.5, delay: 0.3 }} // Transition duration and delay
         >
-          Favour Okpara
+          Onyekwelu Macarius
         </motion.h3>
         <motion.p
           className="text-lg font-normal text-gray-400 dark:text-gray-700"
@@ -32,7 +32,7 @@ function ContactLeft() {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Developer & Writer
+          Quality Assurance Tester
         </motion.p>
         <motion.p
           className="text-gray text-gray-400 dark:text-gray-700 tracking-wide"
@@ -40,8 +40,8 @@ function ContactLeft() {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}
         >
-          Open to opportunities in development and writing—whether you have a
-          project in mind or just want to discuss ideas, let’s connect!
+          Open to opportunities in testing and debugging—whether you have a
+          project in mind or just want to discuss ideas, let&apos;s connect.
         </motion.p>
         <motion.p
           className="text-gray-400 dark:text-gray-700 flex items-center gap-2"
@@ -51,7 +51,7 @@ function ContactLeft() {
         >
           Phone:
           <span className="text-lightText dark:text-bodyColor">
-            +2349131772736
+            +2349066543337
           </span>
         </motion.p>
         <motion.p
@@ -62,7 +62,7 @@ function ContactLeft() {
         >
           Email:
           <span className="text-lightText dark:text-bodyColor">
-            okparafavour202@gmail.com
+            onyekwelumac69@gmail.com
           </span>
         </motion.p>
       </div>
@@ -71,15 +71,6 @@ function ContactLeft() {
           Find me in
         </h2>
         <nav className="flex gap-4">
-          <motion.a
-            target="_blank"
-            href="https://m.me/favour.okpara.984991"
-            className="bannerIcon"
-            whileHover={{ scale: 1.2 }} // Scale on hover
-            transition={{ duration: 0.3 }}
-          >
-            <FaFacebookF />
-          </motion.a>
           <motion.a
             target="_blank"
             href="https://twitter.com/messages/compose?recipient_id=1633576892191195136"
