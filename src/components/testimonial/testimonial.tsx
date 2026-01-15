@@ -161,7 +161,7 @@ function Testimonial() {
                 <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950">
                   <img
                     className="rounded-lg aspect-square h-72 object-cover object-top"
-                    src="/public/image/ifesinachi.jpeg"
+                    src="/image/ifesinachi.jpeg"
                   />
                   <div>
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2 dark:text-gray-400">
