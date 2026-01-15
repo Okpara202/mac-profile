@@ -9,7 +9,7 @@ import { SiCypress } from "react-icons/si";
 
 function LeftBanner() {
   const [text] = useTypewriter({
-    words: ["Professional Quality Assurance.", "Technical Writer."],
+    words: ["Professional Quality Assurance Tester.", "Technical Writer."],
     loop: true,
     typeSpeed: 100,
     deleteSpeed: 50,
