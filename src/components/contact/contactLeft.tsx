@@ -73,7 +73,7 @@ function ContactLeft() {
         <nav className="flex gap-4">
           <motion.a
             target="_blank"
-            href="https://twitter.com/messages/compose?recipient_id=1633576892191195136"
+            href="https://x.com/Mac_QA111"
             className="bannerIcon"
             whileHover={{ scale: 1.2 }} // Scale on hover
             transition={{ duration: 0.3 }}
@@ -82,7 +82,7 @@ function ContactLeft() {
           </motion.a>
           <motion.a
             target="_blank"
-            href="https://www.linkedin.com/in/favour-okpara-8a14a4309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/macarius-onyekwelu-a04327349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="bannerIcon"
             whileHover={{ scale: 1.2 }} // Scale on hover
             transition={{ duration: 0.3 }}

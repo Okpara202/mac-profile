@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -183,19 +183,7 @@ function NavBar({ toggleMode, light }: { toggleMode(): void; light: boolean }) {
                     <nav className="flex gap-4">
                       <motion.a
                         target="_blanc"
-                        href="https://m.me/favour.okpara.984991"
-                        className="bannerIcon"
-                        initial={{ scale: 0, rotate: -180 }}
-                        animate={{ scale: 1, rotate: 0 }}
-                        transition={{ duration: 0.4, delay: 0.7 }}
-                        whileHover={{ scale: 1.2, rotate: 5 }}
-                        whileTap={{ scale: 0.9 }}
-                      >
-                        <FaFacebookF />
-                      </motion.a>
-                      <motion.a
-                        target="_blanc"
-                        href="https://twitter.com/messages/compose?recipient_id=1633576892191195136"
+                        href="https://x.com/Mac_QA111"
                         className="bannerIcon"
                         initial={{ scale: 0, rotate: -180 }}
                         animate={{ scale: 1, rotate: 0 }}
@@ -207,7 +195,7 @@ function NavBar({ toggleMode, light }: { toggleMode(): void; light: boolean }) {
                       </motion.a>
                       <motion.a
                         target="_blanc"
-                        href="https://www.linkedin.com/in/favour-okpara-8a14a4309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        href="https://www.linkedin.com/in/macarius-onyekwelu-a04327349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         className="bannerIcon"
                         initial={{ scale: 0, rotate: -180 }}
                         animate={{ scale: 1, rotate: 0 }}

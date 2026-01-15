@@ -1,10 +1,11 @@
-import { FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { SpinningCircle } from "../navbar/navbarStuff/logoSvg";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Link } from "react-scroll";
 import { FaX } from "react-icons/fa6";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { motion } from "framer-motion";
+import { SiPostman } from "react-icons/si";
+import { SiCypress } from "react-icons/si";
 
 function LeftBanner() {
   const [text] = useTypewriter({
@@ -106,14 +107,13 @@ function LeftBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.3 }}
         >
-          {/* TODO: Link the x and linkedin links to their icons */}
           <h2 className="text-center lgl:text-left uppercase font-titleFont font-semibold mb-4">
             Find me on
           </h2>
           <nav className="flex gap-4">
             <motion.a
               target="_blanc"
-              href="https://twitter.com/messages/compose?recipient_id=1633576892191195136"
+              href="https://x.com/Mac_QA111"
               className="bannerIcon"
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -125,7 +125,7 @@ function LeftBanner() {
             </motion.a>
             <motion.a
               target="_blanc"
-              href="https://www.linkedin.com/in/favour-okpara-8a14a4309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              href="https://www.linkedin.com/in/macarius-onyekwelu-a04327349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="bannerIcon"
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -157,7 +157,7 @@ function LeftBanner() {
               whileTap={{ scale: 0.9 }}
             >
               <Link to="" className="bannerIcon">
-                <FaReact />
+                <SiPostman />
               </Link>
             </motion.div>
             <motion.div
@@ -168,18 +168,7 @@ function LeftBanner() {
               whileTap={{ scale: 0.9 }}
             >
               <Link to="" className="bannerIcon">
-                <SiNextdotjs />
-              </Link>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 1.6 }}
-              whileHover={{ scale: 1.1, rotate: -5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <Link to="" className="bannerIcon">
-                <SiTailwindcss />
+                <SiCypress />
               </Link>
             </motion.div>
           </nav>

@@ -103,57 +103,6 @@ function Testimonial() {
 
             <div className="w-full">
               <div className="w-full h-auto flex flex-col md:flex-row justify-between">
-                <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col  gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950 ">
-                  <img
-                    className="rounded-lg aspect-square h-72 object-cover object-top"
-                    src="/image/favour cartoon.jpg"
-                  />
-                  <div>
-                    <p className="text-xs uppercase text-designColor tracking-wide mb-2 dark:text-gray-400">
-                      Genesys Tech Hub
-                    </p>
-                    <h3 className="text-2xl font-bold dark:text-white">
-                      Ezinne Edmund
-                    </h3>
-                    <p className="text-base tracking-wide text-gray-500 dark:text-gray-400">
-                      Software Engineer
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-[60%] h-full flex flex-col justify-between">
-                  <span className="text-4xl py-4 md:text-9xl dark:text-blue-800">
-                    <FaQuoteRight />
-                  </span>
-                  <div className="w-full h-[70%] bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-8 dark:bg-gradient-to-r dark:transparent dark:to-blue-950">
-                    <div className="flex items-center justify-between py-6 border-b-2 border-b-slate-300">
-                      <div>
-                        <h3 className="text-2xl font-medium tracking-wide dark:text-white">
-                          Easy Design System
-                        </h3>
-                        <p className="text-base text-gray-400 mt-3">
-                          via Learnable - Dec 2024 - Present
-                        </p>
-                      </div>
-                      <div className="text-yellow-500 flex gap-1">
-                        <RiStarFill />
-                        <RiStarFill />
-                        <RiStarFill />
-                        <RiStarFill />
-                        <RiStarFill />
-                      </div>
-                    </div>
-                    <p className="font-titleFont text-gray-400 font-medium trancking-wide leading-6">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolore, recusandae. Natus blanditiis at officiis corporis
-                      ex eaque sint cupiditate magnam delectus eos libero porro,
-                      harum optio nesciunt aspernatur aliquam provident?
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full">
-              <div className="w-full h-auto flex flex-col md:flex-row justify-between">
                 <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950">
                   <img
                     className="rounded-lg aspect-square h-72 object-cover object-top"
@@ -179,7 +128,7 @@ function Testimonial() {
                     <div className="flex items-center justify-between py-6 border-b-2 border-b-slate-300">
                       <div>
                         <h3 className="text-2xl font-medium tracking-wide dark:text-white">
-                          Tutera
+                          Simbi Ai
                         </h3>
                         <p className="text-base text-gray-400 mt-3">
                           2025 - Present
@@ -194,10 +143,69 @@ function Testimonial() {
                       </div>
                     </div>
                     <p className="font-titleFont text-gray-400 font-medium trancking-wide leading-6">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolore, recusandae. Natus blanditiis at officiis corporis
-                      ex eaque sint cupiditate magnam delectus eos libero porro,
-                      harum optio nesciunt aspernatur aliquam provident?
+                      Macarius brought invaluable QA expertise to the Simbi Ai
+                      project. His systematic testing methodology and
+                      comprehensive test cases ensured our digital analytics
+                      platform met the highest quality standards. His ability to
+                      identify edge cases and provide detailed feedback helped
+                      us deliver a more robust and user-friendly product. An
+                      exceptional QA tester who truly understands the importance
+                      of quality assurance in modern software development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full">
+              <div className="w-full h-auto flex flex-col md:flex-row justify-between">
+                <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950">
+                  <img
+                    className="rounded-lg aspect-square h-72 object-cover object-top"
+                    src="/public/image/ifesinachi.jpeg"
+                  />
+                  <div>
+                    <p className="text-xs uppercase text-designColor tracking-wide mb-2 dark:text-gray-400">
+                      Genesys Tech Hub
+                    </p>
+                    <h3 className="text-2xl font-bold dark:text-white">
+                      Ifesinachi
+                    </h3>
+                    <p className="text-base tracking-wide text-gray-500 dark:text-gray-400">
+                      Digital Analyst
+                    </p>
+                  </div>
+                </div>
+                <div className="w-full md:w-[60%] h-full flex flex-col justify-between">
+                  <span className="text-4xl py-4 md:text-9xl dark:text-blue-800">
+                    <FaQuoteRight />
+                  </span>
+                  <div className="w-full h-[70%] bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col justify-center gap-8 dark:bg-gradient-to-r dark:transparent dark:to-blue-950">
+                    <div className="flex items-center justify-between py-6 border-b-2 border-b-slate-300">
+                      <div>
+                        <h3 className="text-2xl font-medium tracking-wide dark:text-white">
+                          Tutera
+                        </h3>
+                        <p className="text-base text-gray-400 mt-3">
+                          via Learnable - Dec 2024 - Present
+                        </p>
+                      </div>
+                      <div className="text-yellow-500 flex gap-1">
+                        <RiStarFill />
+                        <RiStarFill />
+                        <RiStarFill />
+                        <RiStarFill />
+                        <RiStarFill />
+                      </div>
+                    </div>
+                    <p className="font-titleFont text-gray-400 font-medium trancking-wide leading-6">
+                      Working with Macarius on the Tutera project was
+                      exceptional. His thorough testing approach and attention
+                      to detail caught critical bugs that would have impacted
+                      user experience. His ability to think from both technical
+                      and end-user perspectives ensured our frontend
+                      implementations were robust and reliable. A QA
+                      professional who truly elevates the quality of any
+                      development team.
                     </p>
                   </div>
                 </div>
