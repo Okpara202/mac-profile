@@ -168,7 +168,7 @@ function Testimonial() {
                       Genesys Tech Hub
                     </p>
                     <h3 className="text-2xl font-bold dark:text-white">
-                      Ifesinachi
+                      Alozie Ifesinachi
                     </h3>
                     <p className="text-base tracking-wide text-gray-500 dark:text-gray-400">
                       Digital Analyst

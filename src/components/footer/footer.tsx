@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaX } from "react-icons/fa6";
+import { FaLinkedinIn, FaX } from "react-icons/fa6";
 import { GlowingLogo } from "../navbar/navbarStuff/logoSvg";
 import { motion } from "framer-motion"; // Import motion from Framer Motion
 
@@ -13,15 +13,6 @@ function Footer() {
       >
         <GlowingLogo />
         <nav className="flex gap-4 flex-col lg:flex-row">
-          <motion.a
-            target="_blank"
-            href="https://m.me/favour.okpara.984991"
-            className="bannerIcon"
-            whileHover={{ scale: 1.2 }} // Scale on hover
-            transition={{ duration: 0.3 }}
-          >
-            <FaFacebookF />
-          </motion.a>
           <motion.a
             target="_blank"
             href="https://x.com/Mac_QA111"
