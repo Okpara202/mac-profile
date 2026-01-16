@@ -99,8 +99,6 @@ function Testimonial() {
         </div>
         <div className="max-w-6xl mx-auto w-full px-4">
           <Slider {...settings}>
-            {/* TODO: update the pictures and their comments */}
-
             <div className="w-full">
               <div className="w-full h-auto flex flex-col md:flex-row justify-between">
                 <div className="w-full md:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  rounded-lg p-8 shadow-shadowOne flex flex-col gap-8 justify-center dark:bg-gradient-to-r dark:transparent dark:to-blue-950">

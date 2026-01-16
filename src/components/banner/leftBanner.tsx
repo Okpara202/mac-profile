@@ -144,7 +144,6 @@ function LeftBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.3 }}
         >
-          {/* TODO: Add icons of postman, katalon studio, and cypress as best skills on    */}
           <h2 className="uppercase font-titleFont font-semibold mb-4">
             Best skills on
           </h2>

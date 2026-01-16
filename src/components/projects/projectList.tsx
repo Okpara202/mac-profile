@@ -1,44 +1,43 @@
 export const projects = [
-  // TODO: Add text cases and use them to replace somethings
   {
     title: "User Management System",
     description:
-      "I designed a User Management System from scratch using React.js, TypeScript, React Hook Form, and Zod for efficient form handling and validation. Styled with Tailwind CSS, the system ensures a seamless user experience with a modern, responsive interface and robust data management.",
+      "I conducted comprehensive QA testing for this User Management System, ensuring robust form validation, data integrity, and seamless user experience. Tested all CRUD operations, role-based permissions, and edge cases to deliver a reliable system built with React.js, TypeScript, and React Hook Form.",
     src: "/image/IMG_20250327_132613.jpg",
     link: "https://okpara-ums.netlify.app/",
   },
   {
     title: "FoodieLand",
     description:
-      "I recreated a Figma design of a restaurant food website using HTML, CSS, and vanilla JavaScript. This project showcases my ability to translate UI/UX designs into fully responsive, interactive web pages with clean code, smooth animations, and an engaging user experience.",
+      "I performed thorough testing of this restaurant website, validating responsive design across devices, cross-browser compatibility, and interactive functionality. Ensured the Figma design translation maintained visual fidelity and user experience standards using HTML, CSS, and vanilla JavaScript.",
     src: "/image/IMG_20250327_132759.jpg",
     link: "https://okpara-recipe.netlify.app/",
   },
   {
     title: "Quiz App",
     description:
-      "I co-created a Quiz App with Mmesoma Anisiuba using HTML, CSS, and JavaScript. The app features a countdown timer before the quiz starts and displays correct answers at the end, ensuring an interactive and engaging user experience.",
+      "I led quality assurance for this collaborative Quiz App, testing timer functionality, answer validation logic, and scoring algorithms. Verified game flow integrity and user experience across different scenarios, ensuring reliable performance of this interactive JavaScript-based application.",
     src: "/image/IMG_20250327_133113.jpg",
     link: "https://quizzs.onrender.com/",
   },
   {
     title: "Assembly EndGame",
     description:
-      "I built Assembly Endgame, a React-based word-guessing game with a unique storyline. The programming world is in danger, and to save it, you must guess the correct word. With each wrong guess, a programming language disappears—if only Assembly remains, you lose the game!",
+      "I tested this React-based word-guessing game, validating game logic, state management, and user interactions. Ensured proper functionality of the unique storyline mechanics, word validation algorithms, and progressive difficulty features for an engaging gaming experience.",
     src: "/image/IMG_20250327_133822.jpg",
     link: "https://okparaendgame.netlify.app/",
   },
   {
     title: "RoleGuard Auth",
     description:
-      "I created a login form using React Context API, Zod, and React Hook Form, implementing fake authentication. The system dynamically displays different content based on user roles—viewers, editors, and admins—showcasing role-based access control in a seamless user experience",
+      "I conducted extensive testing of this role-based authentication system, verifying security protocols, access control mechanisms, and user role transitions. Tested authentication flows, session management, and dynamic content display across viewer, editor, and admin roles.",
     src: "/image/IMG_20250327_134005.jpg",
     link: "https://okpara-simple.netlify.app/",
   },
   {
     title: "GitProfile Viewer",
     description:
-      "GitProfile Viewer is a web app that lets you enter a GitHub username to view detailed profile information, including bio, followers, and public repositories. It links directly to each repository, offering a seamless way to explore and discover open-source contributions and user details.",
+      "I performed comprehensive testing of this GitHub profile viewer application, validating API integration, data rendering, and error handling. Tested profile information display, repository linking, and user search functionality to ensure reliable performance and accurate data presentation.",
     src: "/image/IMG_20250327_134436.jpg",
     link: "https://okpara-git-profile.netlify.app/",
   },
