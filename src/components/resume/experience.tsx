@@ -38,26 +38,25 @@ function Experience() {
           {[
             {
               title: "Quality Assurance Engineer (Software Tester)",
-              subTitle: "The Bug Detective",
+              subTitle: "The Bug Detective (2025 - 2025)",
               description: [
-                "Executed over 100+ manual test case across the playnaij web-based gameto ensure software quality and functionality.",
+                "Contributed to stakeholder pitch presentations by sharing key findings on product quality from my testing work, with a strong focus on the Tutera product.",
                 "Developed and maintained comprehensive test plans covering functional regression, and explanatory testing scenarios.",
-                "Reported 50+ critical and high-priority bugs using click up and documented 90% bugs with 90% resolved",
-                "Participated in weekly Agile sprints and daily stand-ups, improving issues resolution time by 30% through clear communication.",
-                "Collaborated",
+                "Reported 50+ critical and high-priority bugs using click up and documented 85% bugs with 90% resolved",
+                "I was actively involved in weekly Agile sprints and daily stand-ups, improving issues resolution time by 30% through clear communication.",
+                "Collaborated with a QA teams of 5+ members on real-world projects, ensuring adherence to SDLC and STLC processes",
               ],
             },
             {
               title: "Quality Assurance Engineer (Software Tester),",
-              subTitle: "Genesys Tech Hub,Enugu(2024 - 2025)",
+              subTitle: "Genesys Tech Hub,Enugu(2024 - 2026)",
               description: [
-                "Assisted in developing and maintaining React.js and Next.js web applications.",
-                "Implemented UI components using Chakra UI, Tailwind CSS, and CSS Modules for responsive design.",
-                "Integrated RESTful APIs and handled state management with Redux Toolkit.",
-                "Collaborated with senior developers in debugging, troubleshooting, and optimizing front-end performance.",
-                "Gained hands-on experience with React Hook Form & Zod for form validation and user input handling.",
-                "Participated in code reviews, Agile meetings, and team discussions to improve coding standards.",
-                "Learned and applied best practices in version control (Git/GitHub) and code documentation.",
+                "Executed over 80+ manual test case across the Playnaij web-based game and Hybrid Tutera an LMS platform to ensure software quality and functionality.",
+                " Developed and maintained comprehensive test plan covering functional, regression, and exploratory testing scenarios.",
+                " Reported 0+ critical and high-priority bugs using click up and documented 85% bugs, with 90% resolved.",
+                "I was actively involved in the weekly Agile sprints and daily stand-ups, improving issues resolution time by 25% through clear communication.",
+                "Collaborated with a QA teams of 5+ members on real-world projects, ensuring adherence to SDLC and STLC processes",
+                "Contributed to stakeholder pitch presentations by sharing key findings on product quality from my testing work, with a strong focus on the Tutera product.",
               ],
             },
             {
