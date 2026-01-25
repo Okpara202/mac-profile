@@ -37,16 +37,18 @@ function Experience() {
         <aside className="w-full h-auto border-l-[6px] border-black dark:border-blue-950 lgl:mt-14 mt-6 flex flex-col gap-10">
           {[
             {
-              title: "Frontend Developer",
-              subTitle: "Simbi",
+              title: "Quality Assurance Engineer (Software Tester)",
+              subTitle: "The Bug Detective",
               description: [
-                "Implemented UI components using Chakra UI, Tailwind CSS, and CSS Modules for responsive design.",
-                "Integrated RESTful APIs and handled state management with Redux Toolkit.",
-                "Collaborated with senior developers in debugging, troubleshooting, and optimizing front-end performance.",
+                "Executed over 100+ manual test case across the playnaij web-based gameto ensure software quality and functionality.",
+                "Developed and maintained comprehensive test plans covering functional regression, and explanatory testing scenarios.",
+                "Reported 50+ critical and high-priority bugs using click up and documented 90% bugs with 90% resolved",
+                "Participated in weekly Agile sprints and daily stand-ups, improving issues resolution time by 30% through clear communication.",
+                "Collaborated",
               ],
             },
             {
-              title: "FrontEnd Intern",
+              title: "Quality Assurance Engineer (Software Tester),",
               subTitle: "Genesys Tech Hub,Enugu(2024 - 2025)",
               description: [
                 "Assisted in developing and maintaining React.js and Next.js web applications.",
