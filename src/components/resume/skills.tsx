@@ -6,7 +6,7 @@ function Skills() {
     { name: "Problem-Solving & Critical Thinking", percentage: 80 },
     { name: "Adaptability & Continuous Learning", percentage: 95 },
     { name: "Empathy & User-Centered Thinking", percentage: 100 },
-    { name: "Time Management & Organization", percentage: 70 },
+    { name: "Time Management & Organization", percentage: 80 },
     { name: "Collaboration & Teamwork", percentage: 100 },
     { name: "Attention to Detail", percentage: 100 },
   ];
