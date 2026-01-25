@@ -60,16 +60,14 @@ function Experience() {
               ],
             },
             {
-              title: "Web Development Tutor",
-              subTitle: "LanceySoft Technologies, Abuja, Nigeria (2023 -2025)",
+              title: "Quality Assurance Engineer (Software Tester)",
+              subTitle: "Quality Teches (2025 -2025)",
               description: [
-                "Taught HTML, CSS, JavaScript, TypeScript, React.js, and Next.js to beginners and intermediate learners.",
-                "Designed structured lesson plans, tutorials, and hands-on projects to reinforce learning.",
-                "Guided students in building responsive and interactive web applications using modern frameworks.",
-                "Explained complex concepts like state management (Redux Toolkit), API integration, and performance optimization in a simple and engaging way.",
-                "Assisted students in debugging code, writing clean code, and following best practices.",
-                "Provided mentorship through one-on-one sessions, live coding demonstrations, and interactive Q&A discussions.",
-                "Introduced essential developer tools such as Git/GitHub, React Hook Form, Zod, and Chakra UI.",
+                "I completed the Quality techies Software Testing Fundamentals program.",
+                "I gained practical, real-world experience in testing using the Cypress automation framework.",
+                "I led the Capstone project team, coordinating and guiding my teammates throughout the project.",
+                "I converted my learning about APIs and DOM handling into practical implementation during the project.",
+                "I was actively involved in software testing tasks, including writing and executing tests using Cypress.",
               ],
             },
           ].map((card, index) => (
@@ -120,7 +118,7 @@ function Experience() {
           >
             <ResumeCard
               title="National Youth Service Corp"
-              subTitle="221 Light Tank Battalion, Wawa Cantonement (2023 - 2024)"
+              subTitle="Majesty Community Rural Development Foundation.(2024 - 2025)"
               description={[
                 "Served as an Instructor during the National Youth Service Corps (NYSC).",
                 "Engaged in capacity-building programs, leadership trainings, and team collaborations to support organizational goals.",

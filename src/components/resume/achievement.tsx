@@ -30,7 +30,7 @@ function Achievements() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            Frontend Developer
+            Quality Assurance Engineer
           </motion.h2>
         </div>
 
@@ -42,23 +42,21 @@ function Achievements() {
             whileHover={{ x: 5, scale: 1.02 }}
           >
             <ResumeCard
-              title="FrontEnd Intern"
+              title="Quality Assurance Engineer"
               subTitle="Genesys Tech Hub,Enugu(2024 - 2025)"
               description={[
-                "Developed responsive and interactive web applications using React.js, Next.js, and Redux Toolkit.",
-                "Integrated RESTful APIs and optimized front-end performance for better user experience.",
-                "Implemented React Hook Form & Zod for form validation and data handling.",
-                "Styled applications with Chakra UI, Tailwind CSS, and CSS-in-JS frameworks.",
-                "Managed state efficiently with Redux Toolkit and handled routing using React Router.",
-                "Collaborated with designers and backend developers to deliver seamless UI/UX.",
-                "Ensured cross-browser compatibility and mobile responsiveness.",
+                "Successfully identified and documented 50+ critical and high-priority bugs across multiple web applications, achieving 90% resolution rate.",
+                "Developed comprehensive test plans covering functional, regression, and exploratory testing scenarios for Tutera LMS platform.",
+                "Reduced issue resolution time by 30% through active participation in Agile sprints and clear communication with development teams.",
+                "Executed over 80+ manual test cases ensuring software quality and functionality across Playnaij web-based game and Tutera platform.",
+                "Contributed to stakeholder presentations by providing key quality findings and testing insights that influenced product decisions.",
+                "Collaborated effectively with QA teams of 5+ members, ensuring strict adherence to SDLC and STLC processes.",
               ]}
             />
           </motion.div>
         </aside>
       </motion.div>
 
-      {/* Web Development Tutor Section */}
       <motion.div
         initial={{ x: 50, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -79,7 +77,7 @@ function Achievements() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            Web Development Tutor
+            Quality Assurance Engineer
           </motion.h2>
         </div>
 
@@ -91,16 +89,15 @@ function Achievements() {
             whileHover={{ x: 5, scale: 1.02 }}
           >
             <ResumeCard
-              title="Web Dev Tutor"
-              subTitle="LanceySoft Technologies, Abuja, Nigeria (2023 -2024)"
+              title="QA Testing Fundamentals Graduate"
+              subTitle="Quality Teches (2025 - 2025)"
               description={[
-                "Taught HTML, CSS, JavaScript, React.js, Next.js, Express, Node and Nest.js to students of varying skill levels.",
-                "Guided learners in building responsive and interactive web applications using modern frameworks.",
-                "Explained complex concepts like state management (Redux Toolkit), API integration, and performance optimization.",
-                "Assisted students in debugging code, improving problem-solving skills, and writing clean, maintainable code.",
-                "Provided hands-on projects and coding challenges to reinforce theoretical knowledge.",
-                "Introduced best practices in version control (Git/GitHub), UI/UX principles, and accessibility.",
-                "Conducted one-on-one mentoring sessions, live coding demonstrations, and Q&A discussions.",
+                "Successfully completed Quality Teches Software Testing Fundamentals program with practical, real-world testing experience.",
+                "Led capstone project team, coordinating and guiding teammates throughout the testing lifecycle and project execution.",
+                "Gained hands-on experience with Cypress automation framework for web application testing and API testing.",
+                "Applied API testing knowledge and DOM handling skills in practical project implementations.",
+                "Developed and executed comprehensive test cases using industry-standard testing methodologies.",
+                "Demonstrated strong understanding of software testing principles, bug tracking, and quality assurance processes.",
               ]}
             />
           </motion.div>
